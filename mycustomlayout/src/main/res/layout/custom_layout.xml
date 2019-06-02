@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mycustomlayout.CustomViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<Button
+    android:textSize="10sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="测试一" />
+
+<Button
+    android:textSize="10sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="测试二" />
+
+<Button
+    android:textSize="10sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="测试三" />
+
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="测试四" />
+
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="测试五" />
+
+    <Button
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试一" />
+
+    <Button
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试二" />
+
+    <Button
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试三" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试四" />
+
+
+    </com.example.mycustomlayout.CustomViewGroup>

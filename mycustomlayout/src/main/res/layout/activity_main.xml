@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.example.mycustomlayout.CustomLayout
+
+       app:layout_constraintTop_toTopOf="parent"
+       android:id="@+id/customlayout"
+       android:layout_width="80dp"
+       android:layout_height="60dp">
+
+   </com.example.mycustomlayout.CustomLayout>
+
+   <com.example.mycustomlayout.CustomViewGroup
+       app:layout_constraintTop_toBottomOf="@+id/customlayout"
+       app:layout_constraintBottom_toTopOf="@+id/customview02"
+       android:id="@+id/customview01"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       >
+
+   </com.example.mycustomlayout.CustomViewGroup>
+   <com.example.mycustomlayout.CustomViewGroup
+         app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/customview01"
+       android:id="@+id/customview02"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp">
+
+   </com.example.mycustomlayout.CustomViewGroup>
+
+   <Button
+       android:text="刷新"
+       android:id="@+id/btn_refrsh"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

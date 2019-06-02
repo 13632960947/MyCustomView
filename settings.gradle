@@ -1,0 +1,1 @@
+include ':app', ':mycustomlayout', ':activitylifecycle', ':blockcanary', ':mythread', ':mytablayout', ':mybaseactivity', ':ThreadPool'
